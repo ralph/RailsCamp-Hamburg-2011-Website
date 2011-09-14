@@ -1,0 +1,1 @@
+watch( '(texts/.*\.md|index\.html\.erb)' ) {|md| system("rake generate_index") }

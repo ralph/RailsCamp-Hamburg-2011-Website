@@ -14,3 +14,10 @@ The content is in the `texts` subfolder, in markdown format.
 
 Adjust the `index.html.erb` file, then run rake to see the changes in
 the generated `index.html` file.
+
+If you don't want to run rake after every change, use the following:
+
+    watchr watch_me
+
+It will watch for file changes and re-generate the `index.html` file if
+anything changed.
