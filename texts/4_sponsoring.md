@@ -4,7 +4,8 @@ slug: sponsoring
 position: 4
 ---
 
-Railscamp Hamburg 2011 offers you three options for sponsorship of the event:
+Railscamp Hamburg 2011 offers you three options for sponsorship of the
+event:
 
 1. Banner 125x125px: 500 Euro + 19% German VAT
 1. Banner 250x125px: 1.000 Euro + 19% German VAT
