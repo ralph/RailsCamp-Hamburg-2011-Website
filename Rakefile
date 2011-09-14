@@ -24,7 +24,7 @@ end
 
 desc 'deploy static html to s3'
 task :deploy do
-  system 's3cmd -c ./s3cfg sync --exclude "*" --include-from s3sync.include --delete-removed --acl-public . s3://www.railscamp-hamburg.de'
+  system 's3cmd -c ./s3/s3cfg sync --exclude "*" --include-from ./s3/s3sync.include --delete-removed --acl-public . s3://www.railscamp-hamburg.de'
 end
 
 
