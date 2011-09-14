@@ -17,7 +17,7 @@ the generated `index.html` file.
 
 If you don't want to run rake after every change, use the following:
 
-    watchr watch_me
+    rake watchr
 
 It will watch for file changes and re-generate the `index.html` file if
 anything changed.
