@@ -1,0 +1,3 @@
+[default]
+access_key = the_actual_access_key
+secret_key = the_actual_secret_key
