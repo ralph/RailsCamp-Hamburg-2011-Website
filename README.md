@@ -21,3 +21,17 @@ If you don't want to run rake after every change, use the following:
 
 It will watch for file changes and re-generate the `index.html` file if
 anything changed.
+
+
+## Deployment
+
+Install s3cmd via homebrew:
+
+    brew install s3cmd
+
+Make sure you have the right credentials in `s3/s3cfg`.
+(If you are a member of the RailsCamp Hamburg team, the file can be found in the Dropbox.)
+
+Then, for each deployment just run:
+
+    rake deploy
