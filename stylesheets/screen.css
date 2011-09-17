@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope);
+
+body{
+  background: #fff;
+}
+
+nav{
+  padding-left: 30px;
+}
+
+.pills a{
+  color: #eee;
+}
+
+h1{
+  font-family: 'Annie Use Your Telescope', cursive;
+  color: #222328;
+  position: relative;
+  top: 50px;
+  left: 215px;
+  font-size: 5em;
+  width: 240px;
+}
+
+header{
+  background: transparent url("../images/bg-header.jpg") top left no-repeat;
+  height: 314px;
+  -moz-transform:rotate(-2deg);
+  -webkit-transform:rotate(-2deg);
+}
+
+
+.container{
+  border-left: 4px ridge #ba0000;
+  border-right: 7px ridge #ba0000;
+  -moz-box-shadow: 3px 3px 200px #999;
+  -webkit-box-shadow: 3px 3px 200px #999;
+  overflow: hidden;
+}
+
+article{
+  padding: 10px;
+}
