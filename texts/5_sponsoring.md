@@ -1,7 +1,7 @@
 ---
 title: Sponsoring
 slug: sponsoring
-position: 4
+position: 5
 ---
 
 Railscamp Hamburg 2011 offers you three options for sponsorship of the

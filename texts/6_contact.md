@@ -1,7 +1,7 @@
 ---
 title: Contact
 slug: contact
-position: 5
+position: 6
 ---
 
 [Website](http://www.railscamp-hamburg.de)  
