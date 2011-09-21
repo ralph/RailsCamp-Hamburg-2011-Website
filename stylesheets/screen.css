@@ -1,7 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope);
+@import url(http://fonts.googleapis.com/css?family=Ultra);
 
 body{
   background: #fff;
+  text-align: center;
 }
 
 nav{
@@ -17,14 +19,40 @@ h1{
   color: #222328;
   position: relative;
   top: 50px;
-  left: 215px;
+  left: 175px;
   font-size: 5em;
   width: 240px;
 }
 
+h2,h3{
+  font-family: 'Ultra', serif;
+  padding-top: 20px;
+  text-shadow: #fff 1px 1px 0
+}
+
+h2{
+  font-size: 6em;
+}
+
+h3{
+  font-size: 5em;
+}
+
+p, ol{
+  font-size: 1.2em;
+  padding: 20px 25%;
+  text-align: justify;
+  color: #666
+}
+
+ol{
+  font-weight: bold;
+  color: #000
+}
+
 header{
   background: transparent url("../images/bg-header.jpg") top left no-repeat;
-  height: 314px;
+  height: 344px;
   -moz-transform:rotate(-2deg);
   -webkit-transform:rotate(-2deg);
 }
@@ -36,6 +64,8 @@ header{
   -moz-box-shadow: 3px 3px 200px #999;
   -webkit-box-shadow: 3px 3px 200px #999;
   overflow: hidden;
+  width: 697px;
+  background: #ddd;
 }
 
 article{
