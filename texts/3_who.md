@@ -11,8 +11,7 @@ and Q&A you‘ll learn about the latest technologies and trends.
 Railscamp language will be English and German.
 
 The non-profit event is organized by a team of volunteers (in
-alphabetical order):
-
-Cem Basman, Jochen Kramer, Peter Schröder, Ralph von der Heyden, Robin
-Boening, Steffen Mölter, Sven Kräuter, and many more from the Ruby on
-Rails community in Hamburg.
+alphabetical order):  
+Benjamin Raabe, Cem Basman, Peter Schröder, Ralph
+von der Heyden, Robin Boening, Steffen Mölter, Sven Kräuter, and many
+more from the Ruby on Rails community in Hamburg.
