@@ -2,8 +2,8 @@
 @import url(http://fonts.googleapis.com/css?family=Ultra);
 
 body{
-  background: #fff;
-  text-align: center;
+  background: transparent url("../images/bg.png") top left fixed;
+  padding-top: 20px;
 }
 
 nav{
@@ -14,12 +14,16 @@ nav{
   color: #eee;
 }
 
+.pills a:hover{
+  background: #c86724;
+}
+
 h1{
   font-family: 'Annie Use Your Telescope', cursive;
   color: #222328;
   position: relative;
   top: 50px;
-  left: 175px;
+  left: 210px;
   font-size: 5em;
   width: 240px;
 }
@@ -27,20 +31,21 @@ h1{
 h2,h3{
   font-family: 'Ultra', serif;
   padding-top: 20px;
-  text-shadow: #fff 1px 1px 0
+  text-shadow: #fff 1px 1px 0;
+  color: #222328;
 }
 
 h2{
-  font-size: 6em;
+  font-size: 3em;
 }
 
 h3{
-  font-size: 5em;
+  font-size: 2em;
 }
 
 p, ol{
   font-size: 1.2em;
-  padding: 20px 25%;
+  padding: 20px;
   text-align: justify;
   color: #666
 }
@@ -51,21 +56,26 @@ ol{
 }
 
 header{
-  background: transparent url("../images/bg-header.jpg") top left no-repeat;
-  height: 344px;
-  -moz-transform:rotate(-2deg);
-  -webkit-transform:rotate(-2deg);
+  background: transparent url("../images/bg-header.jpg")  no-repeat;
+  height: 314px;
+  width: 960px;
+  border-bottom: 4px dashed #fff;
 }
 
 
 .container{
-  border-left: 4px ridge #ba0000;
-  border-right: 7px ridge #ba0000;
-  -moz-box-shadow: 3px 3px 200px #999;
-  -webkit-box-shadow: 3px 3px 200px #999;
+  -moz-box-shadow: 0 2px 3px rgba(78, 68, 60, 0.3);
+  -webkit-box-shadow: 0 2px 3px rgba(78, 68, 60, 0.3);
   overflow: hidden;
-  width: 697px;
-  background: #ddd;
+  width: 940px;
+  background: #fff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  background: #eee
+}
+
+.span4{
+  border-left: 1px solid #fff
 }
 
 article{

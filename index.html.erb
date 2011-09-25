@@ -21,15 +21,22 @@
       </nav>
       <h1>RailsCamp Hamburg 2011</h1>
     </header>
-    <article>
-      <h2>The Gist</h2>
-      <p>October 29-30, 2011, at <a
-          href="http://www.werkheim-hamburg.de/">Werkheim Hamburg</a>.</p>
-      <% Text.order_by(:position).all.each do |text| -%>
-        <h3 id="<%= text.slug %>"><%= text.title %></h3>
-        <%= text.to_html %>
-      <% end -%>
-    </article>
+    <div class="row">
+      <div class="span11">
+        <article>
+          <h2>The Gist</h2>
+          <p>October 29-30, 2011, at <a
+              href="http://www.werkheim-hamburg.de/">Werkheim Hamburg</a>.</p>
+          <% Text.order_by(:position).all.each do |text| -%>
+            <h3 id="<%= text.slug %>"><%= text.title %></h3>
+            <%= text.to_html %>
+          <% end -%>
+        </article>
+      </div>
+      <div class="span4">
+        echt platz für logos.
+      </div>
+    </div>
     <footer>
       <p><small>&copy; Copyright RailsCamp Hamburg Team 2011. All Rights Reserved.</small></p>
     </footer>
