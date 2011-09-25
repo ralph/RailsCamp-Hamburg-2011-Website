@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -7,9 +7,31 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap-1.2.0.min.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
   <link href="http://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet" type="text/css">
+  
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript">
+    function initialize() {
+      var latlng = new google.maps.LatLng(53.556898, 9.923186);
+      var myOptions = {
+        zoom: 15,
+        center: latlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+      var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+      var marker = new google.maps.Marker({
+        position: latlng,
+        map: map,
+        title: 'WERKHEIM Hamburg'
+      });
+      var c = '<strong><a href="http://www.werkheim-hamburg.de">WERKHEIM Hamburg</a></strong><br/>Planckstraße 13, 22765 Hamburg';
+      var infoWindow = new google.maps.InfoWindow({content: c});
+      infoWindow.open(map, marker);
+    }
+  </script>
+  </head>
 </head>
 
-<body>
+<body onload="initialize()">
   <div class="container">
     <header>
       <nav>
@@ -28,75 +50,104 @@
       <div class="span11">
         <article>
           <h2>The Gist</h2>
-          <p>October 29-30, 2011, at <a
-              href="http://www.werkheim-hamburg.de/">Werkheim Hamburg</a>.</p>
+          <p>
+            <strong>
+              October 29 - 30, 2011, at
+              <a href="http://www.werkheim-hamburg.de/">WERKHEIM Hamburg</a>.
+            </strong>
+          </p>
             <h3 id="what">What?</h3>
-            <p>Railscamp Hamburg 2011 is a barcamp for Ruby and Ruby on Rails developers. It‘s the second time this annual event will take place in Hamburg, Germany. Last year 175 talents met in town.</p>
+            <p><strong>Railscamp Hamburg 2011</strong> is a barcamp for <strong>Ruby and Ruby on Rails</strong> developers.
+It‘s the second time this annual event will take place in <strong>Hamburg, Germany</strong>.
+Last year 175 talents met in town.</p>
 
-<p>It‘s a weekend about technologies, trends, and exchange of experiences in an open and inspiring atmosphere, and so much more. In good barcamp tradition attendance is free for all, food and beverages as well.</p>
+<p>It's a weekend about technologies, trends, and exchange of experiences
+in an open and inspiring atmosphere, and so much more!
+In good barcamp tradition attendance is free for all, food and beverages as well.</p>
 
             <h3 id="where">Where?</h3>
-            <p>Railscamp Hamburg 2011 will happen at an awesome location, a large
+            <p><strong>Railscamp Hamburg 2011</strong> will happen at an <strong>awesome location</strong>, a large
 modern co-working space in an unique turn-of-the-century factory
-architecure:</p>
-
-<p>WERKHEIM HAMBURG<br>
-Planckstraße 13, 22765 Hamburg, Germany</p>
-
-<p><a href="http://www.werkheim-hamburg.de">Website</a><br>
-<a href="http://g.co/maps/cvxsm">Google Maps</a></p>
+architecure:
+<a href="http://www.werkheim-hamburg.de">WERKHEIM</a>, 
+<a href="http://g.co/maps/cvxsm">Planckstraße 13, 22765 Hamburg, Germany</a></p>
 
 <p>Wi-Fi up to 300 Mbit, conference rooms, lounges, bistro. Full catering
 for breakfast and lunch is provided for free. Saturday night partying
 will take place at a different location.</p>
 
+<div id="map_canvas"></div>
+
             <h3 id="who">Who?</h3>
-            <p>Railscamp Hamburg 2011 is for experienced Ruby and Ruby on Rails
+            <p><strong>Railscamp Hamburg 2011</strong> is for experienced Ruby and Ruby on Rails
 developers and for newbies too. In a series of presentations, workshops
 and Q&amp;A you‘ll learn about the latest technologies and trends.</p>
 
-<p>Railscamp language will be English and German.</p>
+<p>Railscamp language will be <strong>English and German</strong>.</p>
 
-<p>The non-profit event is organized by a team of volunteers (in
-alphabetical order):<br>
-Benjamin Raabe, Cem Basman, Peter Schröder, Ralph
-von der Heyden, Robin Boening, Steffen Mölter, Sven Kräuter, and many
-more from the Ruby on Rails community in Hamburg.</p>
+<p>The non-profit event is organized by a team of volunteers from the Ruby on Rails community in Hamburg:</p>
+
+<ul>
+<li><a href="http://twitter.com/#!/benjaminrabe">Benjamin Rabe</a></li>
+<li><a href="http://twitter.com/#!/cemb">Cem Basman</a></li>
+<li><a href="http://twitter.com/#!/phoet">Peter Schröder</a></li>
+<li><a href="http://twitter.com/#!/ralph">Ralph von der Heyden</a></li>
+<li><a href="http://twitter.com/#!/robinboening">Robin Böning</a></li>
+<li><a href="https://www.xing.com/profile/Steffen_Moelter">Steffen Mölter</a></li>
+<li><a href="http://twitter.com/#!/sven_kr">Sven Kräuter</a></li>
+</ul>
 
             <h3 id="registration">Registration</h3>
             <p>You will have to register in order to attend. We will announce the
 beginning of the registration period via
 <a href="http://twitter.com/railscamp_hh">Twitter</a> and on this website.
-Registration is limited to 200 participants, so please only reserve a
-ticket if you are sure that you can come.</p>
+Registration is <strong>limited to 200 participants</strong>.</p>
+
+<p><strong>Please only reserve a
+ticket if you are sure that you can come!</strong></p>
 
             <h3 id="sponsoring">Sponsoring</h3>
-            <p>Show your support! Railscamp Hamburg 2011 needs you:</p>
+            <p><strong>Show your support!</strong></p>
 
-<p>Ruby Sponsor: 2.000 Euro + 19% German VAT<br>
-Icon Sponsor 260x125px: 1.000 Euro + 19% German VAT<br>
-Icon Sponsor 125x125px: 500 Euro + 19% German VAT  </p>
+<p><strong>Railscamp Hamburg 2011</strong> needs you:</p>
 
-<p>There will be only one Ruby Sponsor, who will get a special presentation. Ask for it.</p>
+<ul>
+<li>Ruby Sponsor: 2.000 Euro + 19% German VAT</li>
+<li>Icon Sponsor 260x125px: 1.000 Euro + 19% German VAT</li>
+<li>Icon Sponsor 125x125px: 500 Euro + 19% German VAT</li>
+</ul>
 
-<p>All buttons link from our frontpage to your landing page.<br>
-All buttons are rotating on our frontpage. All in JPG.<br>
-All sponsors can place handout ad material at the event.<br>
-All sponsor logos will be shown on name tags and at the location.  </p>
+<p>There will be only one Ruby Sponsor, who will get a special presentation. Ask for it!</p>
+
+<ul>
+<li>All buttons link from our frontpage to your landing page.</li>
+<li>All buttons are rotating on our frontpage. All in JPEG.</li>
+<li>All sponsors can place handout ad material at the event.</li>
+<li>All sponsor logos will be shown on name tags and at the location.</li>
+</ul>
 
 <p>Please get in contact with us for more detailed information.</p>
 
             <h3 id="contact">Contact</h3>
-            <p><a href="http://www.railscamp-hamburg.de">Website</a><br>
-<a href="http://twitter.com/railscamp_hh">Twitter</a></p>
+            <ul>
+<li><a href="http://www.railscamp-hamburg.de">Website</a></li>
+<li><a href="http://twitter.com/railscamp_hh">Twitter</a></li>
+</ul>
 
 <p>Mail contact for sponsors:<br>
 Cem Basman, Hamburg, cbasman at gmail.com</p>
 
+<p>All this information is available via PDF:
+<a href="http://cl.ly/3r3i3l2C1e2L181C2x1q">Download</a></p>
+
         </article>
       </div>
       <div class="span4">
-        echt platz für logos.
+        <ul id="logos">
+          <li><img src="images/logos/9flats.png"></li>
+          <li><img src="images/logos/akra.png"></li>
+          <li><img src="images/logos/railslove.png"></li>
+        </ul>
       </div>
     </div>
     <footer>

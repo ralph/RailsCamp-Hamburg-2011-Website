@@ -4,6 +4,7 @@
 body{
   background: transparent url("../images/bg.png") top left fixed;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 nav{
@@ -37,17 +38,27 @@ h2,h3{
 
 h2{
   font-size: 3em;
+  padding-bottom: 20px;
 }
 
 h3{
   font-size: 2em;
+  padding-bottom: 15px;
 }
 
-p, ol{
+p, ol, ul{
   font-size: 1.2em;
-  padding: 20px;
+  padding: 5px;
   text-align: justify;
   color: #666
+}
+li {
+  padding: 5px;
+}
+
+#logos li {
+  padding: 20px;
+  list-style:none;
 }
 
 ol{
@@ -62,7 +73,6 @@ header{
   border-bottom: 4px dashed #fff;
 }
 
-
 .container{
   -moz-box-shadow: 0 2px 3px rgba(78, 68, 60, 0.3);
   -webkit-box-shadow: 0 2px 3px rgba(78, 68, 60, 0.3);
@@ -74,8 +84,17 @@ header{
   background: #eee
 }
 
+#map_canvas{
+  width: 600px;
+  height: 400px;
+  margin: 5px;
+  border: 1px solid gray;
+}
+
 .span4{
-  border-left: 1px solid #fff
+  margin-top: 12px;
+  border-left: 4px dashed #fff;
+  height:100%;
 }
 
 article{
