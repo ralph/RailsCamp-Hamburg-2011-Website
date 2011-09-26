@@ -43,33 +43,35 @@
       </nav>
       <h1>RailsCamp Hamburg 2011</h1>
     </header>
-    <div class="row">
-      <div class="span11">
-        <article>
-          <h2>The Gist</h2>
-          <p>
-            <strong>
-              October 29 - 30, 2011, at
-              <a href="http://www.werkheim-hamburg.de/">WERKHEIM Hamburg</a>.
-            </strong>
-          </p>
-          <% Text.order_by(:position).all.each do |text| -%>
-            <h3 id="<%= text.slug %>"><%= text.title %></h3>
-            <%= text.to_html %>
-          <% end -%>
-        </article>
-      </div>
-      <div class="span4">
-        <ul id="logos">
-          <li><img src="images/logos/9flats.png"></li>
-          <li><img src="images/logos/akra.png"></li>
-          <li><img src="images/logos/railslove.png"></li>
-        </ul>
+    <div id="page">
+        <div class="row">
+          <div class="span11">
+            <article>
+              <h2>The Gist</h2>
+              <p>
+                <strong>
+                  October 29 - 30, 2011, at
+                  <a href="http://www.werkheim-hamburg.de/">WERKHEIM Hamburg</a>.
+                </strong>
+              </p>
+              <% Text.order_by(:position).all.each do |text| -%>
+                <h3 id="<%= text.slug %>"><%= text.title %></h3>
+                <%= text.to_html %>
+              <% end -%>
+            </article>
+          </div>
+          <div class="span5">
+            <ul id="logos">
+              <li><img src="images/logos/9flats.png"></li>
+              <li><img src="images/logos/akra.png"></li>
+              <li><img src="images/logos/railslove.png"></li>
+            </ul>
+          </div>
+        </div>
+        <footer>
+          <p><small>&copy; Copyright RailsCamp Hamburg Team 2011. All Rights Reserved.</small></p>
+        </footer>
       </div>
     </div>
-    <footer>
-      <p><small>&copy; Copyright RailsCamp Hamburg Team 2011. All Rights Reserved.</small></p>
-    </footer>
-  </div>
-</body>
+  </body>
 </html>

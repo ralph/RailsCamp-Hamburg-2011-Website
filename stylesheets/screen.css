@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ultra);
 
 body{
-  background: transparent url("../images/bg.png") top left fixed;
+  background: #c5b8af url("../images/bg.png") top left fixed;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -67,21 +67,25 @@ ol{
 }
 
 header{
-  background: transparent url("../images/bg-header.jpg")  no-repeat;
-  height: 314px;
-  width: 960px;
-  border-bottom: 4px dashed #fff;
+  background: #c5b8af url("../images/bg-header.jpg")  no-repeat;
+  height: 310px;
+  width: 940px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+}
+
+#page{
+  background: #eee;
 }
 
 .container{
   -moz-box-shadow: 0 2px 3px rgba(78, 68, 60, 0.3);
-  -webkit-box-shadow: 0 2px 3px rgba(78, 68, 60, 0.3);
+  -webkit-box-shadow: -1px 2px 3px rgba(78, 68, 60, 0.3);
   overflow: hidden;
   width: 940px;
-  background: #fff;
+  background: transparent;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
-  background: #eee
 }
 
 #map_canvas{
@@ -91,10 +95,25 @@ header{
   border: 1px solid gray;
 }
 
-.span4{
-  margin-top: 12px;
-  border-left: 4px dashed #fff;
+.row{
+  position: relative; 
+}
+
+.span5{ 
   height:100%;
+  background: #65666a;
+  -moz-box-shadow: 2px 2px 3px rgba(78, 68, 60, 0.4) inset;
+  -webkit-box-shadow: 2px 2px 3px rgba(78, 68, 60, 0.4) inset;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  position: relative;
+  left: -3px;
+  border-right: 7px solid #c5b8af;
+  position: absolute;
+  left: 653px;
+  top: 0;
 }
 
 article{
