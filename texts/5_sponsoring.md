@@ -8,9 +8,13 @@ __Show your support!__
 
 __Railscamp Hamburg 2011__ needs you:
 
-* Ruby Sponsor: 2.000 Euro + 19% German VAT
-* Icon Sponsor 260x125px: 1.000 Euro + 19% German VAT
-* Icon Sponsor 125x125px: 500 Euro + 19% German VAT
+There are three different sponsorship models waiting for your delight
+
+* Ruby Sponsor
+* Icon Sponsor "big" (260x125px)
+* Icon Sponsor "medium" (125x125px)
+
+For details about the pricing, check out these [slides](http://cl.ly/3r3i3l2C1e2L181C2x1q)
 
 There will be only one Ruby Sponsor, who will get a special presentation. Ask for it!
 
