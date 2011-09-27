@@ -7,8 +7,14 @@ position: 6
 * [Website](http://www.railscamp-hamburg.de)
 * [Twitter](http://twitter.com/railscamp_hh)
 
-Mail contact for sponsors:  
-Cem Basman, Hamburg, cbasman at gmail.com
+__Mail contact for sponsors:__ cbasman at gmail dot com
 
-All this information is available via PDF:
-[Download](http://cl.ly/3r3i3l2C1e2L181C2x1q)
+The non-profit event is organized by a team of volunteers from the Ruby on Rails community in Hamburg:
+
+* [Benjamin Rabe](http://twitter.com/#!/benjaminrabe)
+* [Cem Basman](http://twitter.com/#!/cemb)
+* [Peter Schröder](http://twitter.com/#!/phoet)
+* [Ralph von der Heyden](http://twitter.com/#!/ralph)
+* [Robin Böning](http://twitter.com/#!/robinboening)
+* [Steffen Mölter](https://www.xing.com/profile/Steffen_Moelter)
+* [Sven Kräuter](http://twitter.com/#!/sven_kr)
