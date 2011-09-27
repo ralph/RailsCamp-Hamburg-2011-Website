@@ -70,8 +70,6 @@ header{
   background: #c5b8af url("../images/bg-header.jpg")  no-repeat;
   height: 310px;
   width: 940px;
-  -webkit-border-bottom-right-radius: 8px;
-  -moz-border-radius-bottomright: 8px;
 }
 
 #page{
@@ -110,7 +108,7 @@ header{
   -moz-border-radius-bottomleft: 3px;
   position: relative;
   left: -3px;
-  border-right: 7px solid #c5b8af;
+  border-right: 7px solid #65666a;
   position: absolute;
   left: 653px;
   top: 0;
