@@ -1,6 +1,17 @@
 function Randomize (a, b) {
   return Math.random() - Math.random();
 }
+
+function openTwitterLinksInNewWindow () {
+  $('a[href^=http]').each(function(){
+      var siteregex = "/twitter.com/";      
+			var href = $(this).attr('href');
+      if(href.match(siteregex)){
+          $(this).attr('target','_blank');
+      }
+  });
+}
+
 function rotateLogos() {
   var sponsors = {
     //"9flats": "9flats.com",
@@ -62,4 +73,5 @@ function initializeMap() {
 $(function() {
   rotateLogos();
   initializeMap();
+  openTwitterLinksInNewWindow();
 });
