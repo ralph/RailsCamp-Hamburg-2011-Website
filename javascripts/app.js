@@ -2,10 +2,24 @@ function Randomize (a, b) {
   return Math.random() - Math.random();
 }
 function rotateLogos() {
-  var imgs = ["9flats", "akra", "mindmatters", "railslove"].sort(Randomize);
-  for (var i = 0; i < 3; ++i) {
-    $("#logos").append("<li><img src='images/logos/" + imgs[i] + ".png'></li>")
+  var sponsors = {
+    "9flats": "9flats.com",
+    "akra": "akra.de",
+    "railslove": "railslove.com" 
+  };
+  
+  var keys = [];
+  for (var key in sponsors)
+  {
+    keys.push(key);
   }
+  keys.sort(Randomize);
+      
+  for (var i = 0; i < keys.length; i++)
+  {
+    $("#logos").append("<li><a href='http://"+sponsors[keys[i]]+"'><img src='images/logos/" + keys[i] + ".png'></a></li>")
+  }
+  
 }
 function initializeMap() {
   var latlng = new google.maps.LatLng(53.556898, 9.923186);
