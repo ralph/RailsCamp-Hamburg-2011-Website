@@ -131,3 +131,8 @@ header{
 article{
   padding: 10px;
 }
+
+div.registration-join {
+  text-align:center; 
+  padding: 20px;
+}
