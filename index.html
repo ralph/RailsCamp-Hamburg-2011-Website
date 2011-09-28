@@ -9,44 +9,12 @@
   <link href="http://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet" type="text/css">
   <script type="text/javascript" src="https://www.amiando.com/resources/js/ticketshop-popup.js"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-  <script type="text/javascript">
-    function Randomize (a, b) {
-      return Math.random() - Math.random();
-    }
-    function rotate() {
-      var imgs = ["9flats", "akra", "mindmatters", "railslove"].sort(Randomize);
-      for (var i = 0; i < 3; ++i) {
-        $("#logos").append("<li><img src='images/logos/" + imgs[i] + ".png'></li>")
-      }
-    }
-    $(function() {
-      rotate();
-    });
-  </script>
   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-  <script type="text/javascript">
-    function initialize() {
-      var latlng = new google.maps.LatLng(53.556898, 9.923186);
-      var myOptions = {
-        zoom: 15,
-        center: latlng,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-      };
-      var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-      var marker = new google.maps.Marker({
-        position: latlng,
-        map: map,
-        title: 'WERKHEIM Hamburg'
-      });
-      var c = '<strong><a href="http://www.werkheim-hamburg.de">WERKHEIM Hamburg</a></strong><br/>Planckstraße 13, 22765 Hamburg';
-      var infoWindow = new google.maps.InfoWindow({content: c});
-      infoWindow.open(map, marker);
-    }
-  </script>
+  <script type="text/javascript" src="javascripts/app.js"></script>
   </head>
 </head>
 
-<body onload="initialize()">
+<body>
   <div class="container">
     <header>
       <nav>
