@@ -3,14 +3,14 @@ function Randomize (a, b) {
 }
 function rotateLogos() {
   var sponsors = {
-    "9flats": "9flats.com",
-    "akra": "akra.de",
-    "railslove": "railslove.com" 
+    //"9flats": "9flats.com",
+    "akra": "akra.de"
+    //"railslove": "railslove.com" 
   };
   
   var sponsors_small_pairs = [];
-  sponsors_small_pairs.push({"railslove_small":"railslove.com", "akra_small": "akra.de"});
-  sponsors_small_pairs.push({"railslove_small": "railslove.com"});
+  //sponsors_small_pairs.push({"railslove_small":"railslove.com", "akra_small": "akra.de"});
+  //sponsors_small_pairs.push({"railslove_small": "railslove.com"});
   
   var keys = [];
   for (var key in sponsors)

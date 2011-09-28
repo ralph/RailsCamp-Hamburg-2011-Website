@@ -9,9 +9,9 @@ Registration is __limited to 200 participants__.
 
 _Please only reserve a ticket if you are sure that you can come._
 
-Find out who's attending at Railscamp Hamburg [here.](http://)
+Find out who's attending at Railscamp Hamburg [here.](http://de.amiando.com/MYAXOGB.html?page=598306)
 <div class="registration-join">
-<a class="btn large primary" href="#" onclick="return amiandoTicketShopPopup('https://www.amiando.com/MYAXOGB?panelId=1134694&useDefaults=false', 650, 450);">
+<a class="btn large primary" href="#" onclick="return amiandoTicketShopPopup('http://de.amiando.com/MYAXOGB.html?panelId=1134694&useDefaults=false', 650, 450);">
   <strong>
     Reserve your ticket now!
   </strong>
