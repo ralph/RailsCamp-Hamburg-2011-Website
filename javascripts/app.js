@@ -1,18 +1,62 @@
 function Randomize (a, b) {
   return Math.random() - Math.random();
 }
+
+function openTwitterLinksInNewWindow () {
+  $('a[href^=http]').each(function(){
+      var href = $(this).attr('href');
+      if(href.match("/twitter.com/")){
+          $(this).attr('target','_blank');
+      }
+  });
+}
+
 function rotateLogos() {
-  var imgs = ["9flats", "akra", "mindmatters", "railslove"].sort(Randomize);
-  for (var i = 0; i < 3; ++i) {
-    $("#logos").append("<li><img src='images/logos/" + imgs[i] + ".png'></li>")
+  var sponsors = {
+    //"9flats": "9flats.com",
+    "akra": "akra.de"
+    //"railslove": "railslove.com" 
+  };
+  
+  var sponsors_small_pairs = [];
+  //sponsors_small_pairs.push({"railslove_small":"railslove.com", "akra_small": "akra.de"});
+  //sponsors_small_pairs.push({"railslove_small": "railslove.com"});
+  
+  var keys = [];
+  for (var key in sponsors)
+  {
+    keys.push(key);
   }
+  keys.sort(Randomize);
+      
+  for (var i = 0; i < keys.length; i++)
+  {
+    $("#logos").append("<li><a class='single' href='http://"+sponsors[keys[i]]+"'><img src='images/logos/" + keys[i] + ".png'></a></li>")
+  }
+  
+  sponsors_small_pairs.sort(Randomize);  
+  for (var i = sponsors_small_pairs.length - 1; i >= 0; i--)
+  {
+    var to_append = "<li>";
+    $.each(sponsors_small_pairs[i], function(img, url) { 
+      to_append+= "<a class='pair' href='http://"+url+"'><img src='images/logos/" + img + ".png'></a>"
+    });
+   
+    $("#logos").append(to_append + "</li>");
+    
+  };
+
+  
+  
+  
 }
 function initializeMap() {
   var latlng = new google.maps.LatLng(53.556898, 9.923186);
   var myOptions = {
     zoom: 15,
     center: latlng,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    scrollwheel: false
   };
   var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
   var marker = new google.maps.Marker({
@@ -28,4 +72,5 @@ function initializeMap() {
 $(function() {
   rotateLogos();
   initializeMap();
+  openTwitterLinksInNewWindow();
 });

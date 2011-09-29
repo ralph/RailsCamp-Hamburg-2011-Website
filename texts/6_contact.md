@@ -16,5 +16,5 @@ The non-profit event is organized by a team of volunteers from the Ruby on Rails
 * [Peter Schröder](http://twitter.com/#!/phoet)
 * [Ralph von der Heyden](http://twitter.com/#!/ralph)
 * [Robin Böning](http://twitter.com/#!/robinboening)
-* [Steffen Mölter](https://www.xing.com/profile/Steffen_Moelter)
+* <a href="https://www.xing.com/profile/Steffen_Moelter" target="_blank">Steffen Mölter</a>
 * [Sven Kräuter](http://twitter.com/#!/sven_kr)
