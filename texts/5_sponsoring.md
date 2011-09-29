@@ -12,7 +12,7 @@ There are three different sponsorship models waiting for your delight:
 * Icon Sponsor "big" (260x125px)
 * Icon Sponsor "medium" (125x125px)
 
-For details about the pricing, check out these [slides](http://cl.ly/3r3i3l2C1e2L181C2x1q).
+For details about the pricing, check out these slides [[PDF Download]](Railscamp Hamburg October 29-30, 2011 Final.pdf).
 
 There will be only one Ruby Sponsor, who will get a special presentation. Ask for it!
 

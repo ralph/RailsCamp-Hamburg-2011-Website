@@ -56,9 +56,24 @@ li {
   padding: 5px;
 }
 
+#logos {
+  padding:0; 
+  margin: 0;
+  margin-top: 30px;
+
+}
 #logos li {
-  padding: 20px;
+  padding: 10px;
   list-style:none;
+}
+
+#logos li a.single {
+  padding: 35px;
+}
+
+
+#logos li a.pair {
+  padding: 5px;
 }
 
 ol{
@@ -116,4 +131,9 @@ header{
 
 article{
   padding: 10px;
+}
+
+div.registration-join {
+  text-align:center; 
+  padding: 20px;
 }
