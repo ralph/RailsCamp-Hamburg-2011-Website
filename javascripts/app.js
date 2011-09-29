@@ -4,9 +4,8 @@ function Randomize (a, b) {
 
 function openTwitterLinksInNewWindow () {
   $('a[href^=http]').each(function(){
-      var siteregex = "/twitter.com/";      
-			var href = $(this).attr('href');
-      if(href.match(siteregex)){
+      var href = $(this).attr('href');
+      if(href.match("/twitter.com/")){
           $(this).attr('target','_blank');
       }
   });
