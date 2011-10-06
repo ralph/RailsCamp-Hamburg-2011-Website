@@ -68,7 +68,11 @@ li {
 }
 
 #logos li a.single {
-  padding: 35px;
+  padding: 5px;
+}
+
+#logos li a.small {
+  padding: 70px;
 }
 
 
@@ -136,4 +140,11 @@ article{
 div.registration-join {
   text-align:center; 
   padding: 20px;
+}
+
+li.sponsor {
+  color:#eee;
+  text-align:center;	
+  width: 250px;
+  font-weight:bold;
 }

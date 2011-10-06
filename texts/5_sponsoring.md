@@ -8,7 +8,8 @@ Show your support, __Railscamp Hamburg 2011__ needs you!
 
 There are three different sponsorship models waiting for your delight:
 
-* Ruby Sponsor
+* Ruby Sponsor (booked out)
+* Rails Night Sponsor (booked out)
 * Icon Sponsor "big" (260x125px)
 * Icon Sponsor "medium" (125x125px)
 
