@@ -146,5 +146,30 @@ li.sponsor {
   color:#eee;
   text-align:center;	
   width: 250px;
-  font-weight:bold;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-size: 0.8em;
+  font-weight: bold;
 }
+#twtr-widget-1{
+  margin-top: 5px;
+  width: 280px;
+  margin-left:3px;
+  margin-right:3px;
+}
+.twtr-widget h3{
+  font-family: sans-serif!important;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+.twt-title{
+  color: #EEE;
+  width: 280px;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif!important;
+  margin-top: 60px;
+}
+

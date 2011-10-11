@@ -44,14 +44,46 @@
             </article>
           </div>
           <div class="span5" style="width: 320px;">
-            <ul id="logos">
-            </ul>
+                <ul id="logos">
+                </ul>
+                <p class="twt-title">Find us on Twitter</p>
+                <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+                <script>
+                new TWTR.Widget({
+                  version: 2,
+                  type: 'profile',
+                  rpp: 5,
+                  interval: 30000,
+                  width: 'auto',
+                  height: 400,
+                  theme: {
+                    shell: {
+                      background: '#65666A',
+                      color: '#EEE'
+                    },
+                    tweets: {
+                      background: '#65666A',
+                      color: '#EEE',
+                      links: '#adbde3'
+                    }
+                  },
+                  features: {
+                    scrollbar: false,
+                    loop: false,
+                    live: false,
+                    hashtags: true,
+                    timestamp: true,
+                    avatars: false,
+                    behavior: 'all'
+                  }
+                }).render().setUser('railscamp_hh').start();
+                </script>
           </div>
-        </div>
+          </div>
         <footer>
           <p><small>&copy; Copyright RailsCamp Hamburg Team 2011. All Rights Reserved.</small></p>
         </footer>
       </div>
-    </div>
+    </div>    
   </body>
 </html>
