@@ -40,7 +40,8 @@ function rotateLogos() {
   var sponsors_small_pairs = [];
   sponsors_small_pairs = { 
 	  "railslove_small":"railslove.com", 
-	  "mm": "mindmatters.de"
+	  "mm": "mindmatters.de",
+	  "flinclogo": "flinc.org/de/pages/jobs"
   };
   
   var keys = [];
